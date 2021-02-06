@@ -1,0 +1,16 @@
+Zendesk Ticket Program:
+Written by: Thomas Ngoy
+
+This program will make HTTP GET Requests to Zendesk using information given by the user in the terminal.
+To run the program, type in to the terminal:
+
+    python3 driver.py
+
+Inside the driver.py file, the user can specify the API Token to use in the authentication process.
+If the user would prefer to enter in the API Token on the command line, change the variable titled 'defaultAPI' to False
+
+The program outputs the Ticket Data collected from Zendesk to a file titled 'tickets.txt'
+
+If the user would like to specify their own date parameters for the query, launch the program in launch mode 2.
+Launching in launch mode 1 will use the default date parameters (15-12-2019 12:00 PM UTC to 10-01-2020 12:00PM)
+
